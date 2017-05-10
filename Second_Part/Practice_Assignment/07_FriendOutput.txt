@@ -1,0 +1,141 @@
+
+--> Person Rachel
+    Rachel now has an account.
+
+--> Person Monica
+    Monica now has an account.
+
+--> List Monica
+    Monica has no friends.
+
+--> Friend Rachel Monica
+    Rachel and Monica are now friends.
+
+--> Friend Monica Rachel
+    Monica and Rachel are already friends.
+
+--> List Monica
+    [ Rachel ]
+
+--> List Rachel
+    [ Monica ]
+
+--> Friend Rachel Ross
+    A person with name Ross does not currently exist.
+
+--> Person Ross
+    Ross now has an account.
+
+--> Friend Rachel Ross
+    Rachel and Ross are now friends.
+
+--> Person Joey
+    Joey now has an account.
+
+--> Person Joey
+    A person with name Joey already exists.
+
+--> Friend Joey Joey
+    A person cannot friend him/herself.
+
+--> Unfriend Joey Joey
+    A person cannot unfriend him/herself.
+
+--> Unfriend Joey Rachel
+    Joey and Rachel aren't friends, so you can't unfriend them.
+
+--> Query Joey Rachel
+    Joey and Rachel are not friends.
+
+--> Friend Joey Rachel
+    Joey and Rachel are now friends.
+
+--> Query Joey Rachel
+    Joey and Rachel are friends.
+
+--> Unfriend Joey Joey
+    A person cannot unfriend him/herself.
+
+--> Query Rachel Joey
+    Rachel and Joey are friends.
+
+--> List Rachel
+    [ Joey Ross Monica ]
+
+--> Unfriend Rachel Joey
+    Rachel and Joey are no longer friends.
+
+--> Query Joey Rachel
+    Joey and Rachel are not friends.
+
+--> List Rachel
+    [ Ross Monica ]
+
+--> Person Chandler
+    Chandler now has an account.
+
+--> Friend Chandler Monica
+    Chandler and Monica are now friends.
+
+--> Friend Chandler Rachel
+    Chandler and Rachel are now friends.
+
+--> Friend Ross Chandler
+    Ross and Chandler are now friends.
+
+--> Query Chandler Ross
+    Chandler and Ross are friends.
+
+--> Query Ross Chandler
+    Ross and Chandler are friends.
+
+--> Unfriend Rachel Chandler
+    Rachel and Chandler are no longer friends.
+
+--> Query Rachel Chandler
+    Rachel and Chandler are not friends.
+
+--> Friend Phoebe Rachel
+    A person with name Phoebe does not currently exist.
+
+--> Query Phoebe Rachel
+    A person with name Phoebe does not currently exist.
+
+--> Query Phoebe Phoebe
+    A person cannot query him/herself.
+
+--> Unfriend Phoebe Rachel
+    A person with name Phoebe does not currently exist.
+
+--> Person Phoebe
+    Phoebe now has an account.
+
+--> Friend Phoebe Rachel
+    Phoebe and Rachel are now friends.
+
+--> Query Phoebe Rachel
+    Phoebe and Rachel are friends.
+
+--> Unfriend Phoebe Rachel
+    Phoebe and Rachel are no longer friends.
+
+--> List Rachel
+    [ Ross Monica ]
+
+--> List Monica
+    [ Chandler Rachel ]
+
+--> List Chandler
+    [ Ross Monica ]
+
+--> List Ross
+    [ Chandler Rachel ]
+
+--> List Joey
+    Joey has no friends.
+
+--> List Phoebe
+    Phoebe has no friends.
+
+--> Exit
+    Exiting...
